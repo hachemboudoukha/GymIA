@@ -1,0 +1,79 @@
+# .gitignore pour éviter de versionner les données et fichiers système
+# (placez ce fichier à la racine du repo)
+
+# Dossiers de données et dumps
+data/
+datasets/
+raw_data/
+processed_data/
+outputs/
+results/
+export/
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.tar
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# Modèles / checkpoints
+models/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+
+# Fichiers temporaires / logs
+tmp/
+temp/
+cache/
+*.log
+logs/
+
+# Environnements virtuels
+venv/
+env/
+.venv/
+venv*/
+
+# Fichiers secrets / configurations locales
+.env
+.env.*
+credentials.json
+secrets.json
+local_settings.py
+
+# Fichiers système (macOS / Windows / Linux)
+.DS_Store
+Thumbs.db
+desktop.ini
+Icon?
+*.swp
+
+# Caches et artefacts d'interpréteurs / compilateurs
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / éditeurs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Notebooks Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Ignorer liens symboliques explicites si nécessaire (exemples)
+# ne pas suivre des liens symboliques indexés par nom
+symlinks/
+*.lnk
+
+# Règle générique : tout fichier volumineux ou spécifique aux données
+# peut être ajouté ici (ex: *.bin, *.raw)
+*.bin
+*.raw

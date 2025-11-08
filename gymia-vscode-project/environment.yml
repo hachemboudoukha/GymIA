@@ -1,0 +1,13 @@
+name: gymia-vscode-project
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - opencv
+  - numpy
+  - mediapipe
+  - pytest
+  - jupyter
+  - pip:
+      - gymia @ git+https://github.com/hachemboudoukha/GymIA.git

@@ -1,0 +1,3 @@
+The contents of the file /gymia-vscode-project/gymia-vscode-project/third_party/GymIA will be the cloned or added GymIA repository. Since I cannot clone or add a Git submodule directly, I will provide a comment indicating that this directory is intended for that purpose.
+
+# This directory is intended for the cloned or added GymIA repository.

@@ -1,0 +1,9 @@
+mediapipe
+opencv-python
+Pillow
+pandas
+numpy
+scikit-learn
+customtkinter
+
+
