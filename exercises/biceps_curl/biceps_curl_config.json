@@ -1,0 +1,12 @@
+{
+    "min_detection_confidence": 0.5,
+    "min_tracking_confidence": 0.5,
+    "model_complexity": 1,
+    "min_angle": 50.0,
+    "max_angle": 160.0,
+    "side": "left",
+    "description": "Configuration pour la détection de biceps curls. Analyse l'angle du coude (épaule-coude-poignet). Position basse: angle < 50°, position haute: angle > 160°"
+}
+
+
+

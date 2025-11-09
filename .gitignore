@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # .gitignore pour éviter de versionner les données et fichiers système
 # (placez ce fichier à la racine du repo)
 
@@ -77,3 +78,55 @@ symlinks/
 # peut être ajouté ici (ex: *.bin, *.raw)
 *.bin
 *.raw
+=======
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MediaPipe cache
+*.tflite
+
+# Logs
+*.log
+
+
+
+>>>>>>> 094d5be (biceps)
