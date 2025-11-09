@@ -196,18 +196,4 @@ Chaque exercice possède un fichier de configuration JSON permettant de personna
 - Vérifiez que toutes les dépendances sont installées : `pip install -r requirements.txt`
 - Assurez-vous d'être dans le bon répertoire lors de l'exécution
 
-## 📝 Licence
-
-Ce projet est fourni à des fins éducatives et de démonstration.
-
-## 👨‍💻 Auteur
-
-Développé avec MediaPipe, OpenCV et Python.
-
-## 🙏 Remerciements
-
-- [MediaPipe](https://mediapipe.dev/) pour la détection de pose
-- [OpenCV](https://opencv.org/) pour le traitement vidéo
-
-
 
